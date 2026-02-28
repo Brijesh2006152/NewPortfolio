@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+	color: #333;
+	font-family: Sans-serif;
+}
+
+header{
+	background-color: #E2FFC4;
+	padding: 10px 20px;
+}
+
+.main-heading{
+	font-size: 50px;
+	font-weight: bold;
+	display: block;
+	margin: 30px auto;
+	color: white;
+}
+
+.introduction {
+	background-color: #CFBCFF;
+	border: 1px solid black;
+	padding: 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.about{
+	background-color: #90EE90;
+	padding: 30px 15px;
+	text-align: justify;
+}
+
+.left-box{
+	margin: 20px 10px;
+	padding: 10px;
+}
+
+.left-box a{
+	padding: 10px 15px;
+	text-decoration: none;
+	background-color: purple;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.skills{
+	display: block;
+	margin: auto;
+	padding: 10px 20px;
+	text-align: center;
+}
+.sub-heading{
+	font-size: 30px;
+}
+.skillset{
+	background-color: rgb(255, 215, 214);
+	display: inline-block;
+	border: 2px solid black;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 10px;
+	width: 500px;
+	height: 250px;
+	box-shadow: 10px 10px 10px #555;
+	
+}
+.skillset p{
+	font-size: 25px;
+	
+}
+.sub-heading{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.interest{
+	border: 2px solid #555;
+	width: 500p;
+	border-radius: 20px;
+	margin: 30px 20px;
+	padding: 20px;
+	
+}
+.interest-head {
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #90EE90;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+.interest-elements {
+	margin: 15px 10px;
+	padding: 10px;
+	
+}
+.interest-elements-heads{
+	font-weight: bold;
+	font-size: 25px;
+}
+.contact{
+	background-color: #FFD7BE;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 15px;	
+}
+
+.contact-elements{
+	display: inline-block;
+	background-color: orange;
+	padding: 15px 10px;
+	margin: 15px 10px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	border: none;
+	font-size: 25px;
+	width: 150px;
+	text-align: center;
+}
+
+
+
+footer {
+	background-color: #667eea;
+	color: #667eea;
+	padding: 10px;
+ text-align: center;
+}
+
+@keyframes viewFooter {
+	from {
+		color: #667eea;
+	}
+	to {
+		color: white;
+	}
+}
+footer:hover{
+	animation-name: viewFooter;
+	animation-delay: 0ms;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	
+	color: white;
+}
