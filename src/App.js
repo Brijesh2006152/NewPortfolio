@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Objective from './components/Objective';
+import SkillSection from './components/SkillSection';
 
 function App() {
+  let skill_1_body = "I have completed HTML, CSS and JavaScript. Currently I am learning React to work with modern industry standards.";
+  let skill_2_body = "I learnt python for automation and rapid development of algorithms."
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Objective />
+      <div className="skills">
+        <SkillSection head="Web Development" body={skill_1_body}/>
+        <SkillSection head="Python" body={skill_2_body}/>
+      </div>
+      
     </div>
   );
 }
