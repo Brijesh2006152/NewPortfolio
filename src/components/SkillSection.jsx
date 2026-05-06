@@ -4,7 +4,7 @@ const SkillSection = (props) => {
   return (
     <section className='skill-set'>
         <div className="skill-set-head">{props.head}</div>
-        <div className="skill-set-body">{props.body}</div>
+        <div className="skill-set-body"> {props.body}</div>
     </section>
   )
 }

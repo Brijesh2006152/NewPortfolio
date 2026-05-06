@@ -4,7 +4,7 @@ const Objective = () => {
   return (
     <>
     <div className='objective'>
-        I'm a Computer Science student with a deep passion for software development, AI technologies, and Software optimization. Currently diving into Web development and Java programming. When I'm not coding, you'll find me tweaking hardware for better performance, exploring GenAI tools, or customizing computer.
+        I am a passionate developer with skills in web development, Python, Java, and C. I enjoy creating responsive websites with HTML, CSS, JavaScript, and React, and I use Python for scripting and automation. I also practice Java and C to strengthen my coding foundation, improve problem-solving, and build a deeper understanding of programming concepts.
     </div>
     </>
   )
