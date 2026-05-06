@@ -8,7 +8,7 @@ const Contact = () => {
     </a>
 
     <a href='https://github.com/Brijesh2006152'>
-        <img src='/download.png' alt="gh"/>
+        <img src='/github.png' alt="gh"/>
     </a>
     </>
   )
