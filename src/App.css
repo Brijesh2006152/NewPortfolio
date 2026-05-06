@@ -82,3 +82,21 @@ header {
   color: white;
   text-decoration: none;
 }
+
+
+.contact-section {
+  padding: 15px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+}
+
+.linkedin {
+  border-radius: 5px;
+}

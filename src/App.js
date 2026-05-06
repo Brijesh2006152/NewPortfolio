@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Objective from './components/Objective';
 import SkillSection from './components/SkillSection';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   let skills_content = [
@@ -37,6 +38,9 @@ function App() {
       <div className="projects-section">
         <Projects project_name={projects[0]} body={project_description[0]} path={project_path[0]} />
         <Projects project_name={projects[1]} body={project_description[1]} path={project_path[1]} />
+      </div>
+      <div className="contact-section">
+        <Contact />
       </div>
     </div>
   );
